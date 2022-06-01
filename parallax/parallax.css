@@ -1,0 +1,35 @@
+#c1 {
+  background-image: linear-gradient(to top, #79a1a9 20%, #bfdef1 80%);
+}
+
+#c3 {
+  background: url(cityscape/layer4-min.png) repeat-x 0 80%;
+}
+#c4 {
+  background: url(cityscape/layer3-min.png) repeat-x 55% 100%;
+  width: 120vw;
+}
+#c5 {
+  background: url(cityscape/clouds-min.png) no-repeat 0 62%;
+  width: 120vw;
+}
+
+#c6 {
+  background: url(cityscape/layer2-min.png) repeat-x 15% 82%;
+  width: 130vw;
+}
+
+#c7 {
+  background: url(cityscape/layer1-min.png) no-repeat 0 102%;
+  width: 140vw;
+}
+
+.parallaxLayer {
+  position: absolute;
+  transform: translateZ(0);
+  will-change: transform;
+  width: 110vw;
+  height: 110vh;
+
+  transition: all 0.7s cubic-bezier(0.57, 1.1, 0.55, -0.13);
+}
